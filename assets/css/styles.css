@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 58px;
+}
+
+.cv-header h1 {
+    padding-top: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact {
+    text-align: center;
+    line-height: 1;
+}
+
+.wrapper {
+    max-width: 920px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    background: white;
+    box-shadow: 15px 24px 5px 0px rgba(0, 0, 0, 0.24);
+}
+
+.content {
+    margin-top: 48px;
+    padding: 0 100px;
+}
+
+.section-title {
+    margin-top: 10px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #000;
+}
+
+.cv-head {
+    display: block;
+    margin-top: 12px;
+    width: 100%;
+    /* font-size: 0; */
+}
+
+.cv-title,
+.cv-date {
+    display: inline-block;
+    font-weight: 800;
+    /* font-size: 1rem; */
+    width: 49%;
+}
+
+.cv-date {
+    text-align: right;
+}
+
+.cv-body {
+    margin-left: 22px;
+}
+
+.cv-footer {
+    margin-top: 15px;
+}
