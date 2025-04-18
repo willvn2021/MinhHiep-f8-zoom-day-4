@@ -22,8 +22,11 @@ a {
     color: #000;
 }
 
-.page-body {
+body {
     background-color: #f5f5f5;
+}
+
+.page-body {
     color: #333;
     line-height: 1.6;
     padding: 58px;
@@ -113,4 +116,94 @@ a {
 
 .item.active .link {
     color: #000;
+}
+
+/* Form */
+.form-title {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-register {
+    margin: 0 auto 45px;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-label,
+.title-other,
+.form-radio-group label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #555;
+    font-size: 0.95em;
+    user-select: none;
+}
+
+/* Css input */
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus {
+    border-color: #3e5cca;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(62, 92, 202, 0.2);
+}
+
+.form-input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+.form-radio-group {
+    margin-bottom: 20px;
+}
+
+.form-radio-group label {
+    display: inline;
+    cursor: pointer;
+}
+
+.form-input-radio {
+    width: auto;
+    margin-right: 5px;
+    border: none;
+    box-shadow: none;
+    vertical-align: middle;
+    accent-color: #3e5cca;
+}
+
+.form-avatar {
+    display: block;
+    margin-top: 15px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+
+.form-label > .form-input[type="file"] {
+    display: none;
+}
+
+.form-input-checkbox {
+    display: inline-block;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
 }
